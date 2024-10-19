@@ -1,0 +1,4 @@
+# robots.txt pour Crimson
+
+User-agent: *
+Disallow: /

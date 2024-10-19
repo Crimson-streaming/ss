@@ -1,0 +1,27 @@
+/* Style pour le conteneur des résultats de recherche */
+#search_output {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à une nouvelle ligne si l'espace est insuffisant */
+    justify-content: flex-start; /* Aligne les éléments à gauche */
+    margin-top: 300px; /* Augmente considérablement la marge supérieure pour descendre beaucoup plus bas */
+    gap: 20px; /* Ajoute un espacement entre les éléments */
+    margin-left: 150px; /* Ajoute une marge pour déplacer les éléments vers la droite */
+}
+
+/* Style pour chaque résultat (affiche de film) */
+#search_output .single-video {
+    max-width: 160px; /* Réduit la largeur maximale de chaque vidéo */
+    margin-bottom: 20px; /* Espace en dessous de chaque vidéo */
+}
+
+/* Style pour l'image et le texte */
+#search_output .video-img img {
+    width: 100%; /* Ajuste l'image pour qu'elle prenne tout l'espace disponible dans son conteneur */
+    height: auto; /* Préserve le ratio de l'image */
+}
+
+#search_output .video-item-content {
+    text-align: center; /* Centre le titre du film sous l'affiche */
+    font-size: 12px; /* Taille du texte du titre, légèrement plus petite */
+    margin-top: 5px;
+}
